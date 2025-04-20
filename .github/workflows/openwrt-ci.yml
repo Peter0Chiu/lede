@@ -12,6 +12,7 @@ on:
     - cron: 0 20 * * *
   push:
     branches:
+      -main
       -master
 permissions:
   contents: read
